@@ -306,7 +306,8 @@ Prefab:
     - target: {fileID: 9500000, guid: dcb2e5ca605d47e4e91e07d2eba12b02, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: ec15bb943d0deec458365d166fbfbd6b, type: 2}
+      objectReference: {fileID: 22100000, guid: 9a493680941f0cc44a3140e2326b3b7d,
+        type: 2}
     - target: {fileID: 400144, guid: dcb2e5ca605d47e4e91e07d2eba12b02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
