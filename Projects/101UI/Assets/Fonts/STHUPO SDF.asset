@@ -18,7 +18,7 @@ MonoBehaviour:
   m_fontInfo:
     Name: STHupo
     PointSize: 170
-    Scale: 0
+    Scale: 1
     CharacterCount: 9
     LineHeight: 175.625
     Baseline: 0
@@ -33,7 +33,7 @@ MonoBehaviour:
     UnderlineThickness: 3.4000003
     strikethrough: 35.045456
     strikethroughThickness: 3.4000003
-    TabWidth: 0
+    TabWidth: 415
     Padding: 5
     AtlasWidth: 512
     AtlasHeight: 512
@@ -42,10 +42,10 @@ MonoBehaviour:
   - id: 32
     x: 6
     y: 517
-    width: 0
-    height: 0
+    width: 41.5
+    height: 175.625
     xOffset: 0
-    yOffset: 0
+    yOffset: 136
     xAdvance: 41.5
     scale: 1
   - id: 21050
@@ -209,8 +209,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _FaceTex:
         m_Texture: {fileID: 2800000, guid: 7b4bb9b0ba1ee7d448422ec1b33cb2c1, type: 3}
-        m_Scale: {x: 0.6, y: 1}
-        m_Offset: {x: 0.1, y: 0}
+        m_Scale: {x: 1, y: 0.55}
+        m_Offset: {x: -0.19, y: 0.25}
     - _MainTex:
         m_Texture: {fileID: 28490705245375890}
         m_Scale: {x: 1, y: 1}
@@ -233,7 +233,7 @@ Material:
     - _FaceDilate: 0
     - _FaceShininess: 1
     - _FaceUVSpeedX: 0
-    - _FaceUVSpeedY: 0.1
+    - _FaceUVSpeedY: 0
     - _GlowInner: 0.076
     - _GlowOffset: 0.354
     - _GlowOuter: 0.336
