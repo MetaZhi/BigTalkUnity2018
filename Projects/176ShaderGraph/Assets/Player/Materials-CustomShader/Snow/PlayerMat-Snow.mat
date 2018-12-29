@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PlayerMat-Snow
-  m_Shader: {fileID: 4800000, guid: dd697a08c26714568a62ac148dd2bd78, type: 3}
+  m_Shader: {fileID: 4800000, guid: 58071d9fc605d0448accce9d4ceb03ed, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -18,6 +19,26 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_3954CE35:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_4B27F2B1:
+        m_Texture: {fileID: 2800000, guid: 206adb28e14acb0479ae315df5e1d743, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_CE49A43B:
+        m_Texture: {fileID: 2800000, guid: 39c790ced3e137243bff34375839baa9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_E222C293:
+        m_Texture: {fileID: 2800000, guid: 39c790ced3e137243bff34375839baa9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F3500FBC:
+        m_Texture: {fileID: 2800000, guid: 206adb28e14acb0479ae315df5e1d743, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture_1DD445A6:
         m_Texture: {fileID: 2800000, guid: 206adb28e14acb0479ae315df5e1d743, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -94,13 +115,27 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_1BFFBCB1_Out:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_60527EA4_Out:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_AFDA05A7_Out:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - Float_276B8D4: 0.22
     - Float_80A85CFE: 0.16
     - Float_8F483F7B: 0.46
     - Float_ED6B82AF: 100
     - Vector1_276B8D4: 0.6
+    - Vector1_56399989: -0.02
     - Vector1_80A85CFE: 0.91
+    - Vector1_FFDB3589: 0.45
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -119,10 +154,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_1241691: {r: 1, g: 0.2478704, b: 0, a: 0}
     - Color_1ECE05FF: {r: 1, g: 1, b: 1, a: 1}
     - Color_CD16CA80: {r: 1, g: 1, b: 1, a: 0}
     - Color_E38478F7: {r: 1, g: 0.2554821, b: 0, a: 1}
     - Color_FE2FFFDC: {r: 1, g: 1, b: 1, a: 1}
+    - Vector3_33124315: {r: 0, g: 1, b: 0, a: 0}
     - Vector3_7DDC8105: {r: 0, g: 1, b: 0, a: 0}
     - Vector3_E4E9DA33: {r: 0, g: 1, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
