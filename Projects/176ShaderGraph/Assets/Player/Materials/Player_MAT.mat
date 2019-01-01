@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Player_MAT
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 50f2c4db5876cac45845404da34fe8eb, type: 3}
   m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _METALLICSPECGLOSSMAP _NORMALMAP
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -19,6 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_98426F87:
+        m_Texture: {fileID: 2800000, guid: a3b04ac31d424ae45bb092fd0f75dac5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F214D22C:
+        m_Texture: {fileID: 2800000, guid: 206adb28e14acb0479ae315df5e1d743, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture_33D92B0C:
         m_Texture: {fileID: 2800000, guid: 39c790ced3e137243bff34375839baa9, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -75,12 +83,21 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_A18A3483_Texture:
+        m_Texture: {fileID: 2800000, guid: a3b04ac31d424ae45bb092fd0f75dac5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_B14269FC_Texture:
+        m_Texture: {fileID: 2800000, guid: a95705a150f1ac64c9eb50613ce7f14f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Float_A5A8E873: 0.68
+    - Vector1_58B0610B: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
