@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npcs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<npc>
+		<id>1</id>
+		<name>小猴子</name>
+		<hp>10</hp>
+		<attack>1</attack>
+		<def>1</def>
+	</npc>
+	<npc>
+		<id>2</id>
+		<name>大猴子</name>
+		<hp>100</hp>
+		<attack>2</attack>
+		<def>2</def>
+	</npc>
+	<npc>
+		<id>3</id>
+		<name>孙猴子</name>
+		<hp>999999</hp>
+		<attack>9999</attack>
+		<def>9999</def>
+	</npc>
+</npcs>

@@ -1,0 +1,16 @@
+<npcs>
+    <npc>
+        <id></id>
+        <name></name>
+        <hp></hp>
+        <attack></attack>
+        <def></def>
+    </npc>
+    <npc>
+        <id></id>
+        <name></name>
+        <hp></hp>
+        <attack></attack>
+        <def></def>
+    </npc>
+</npcs>
