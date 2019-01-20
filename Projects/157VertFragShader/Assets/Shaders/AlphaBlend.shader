@@ -10,7 +10,7 @@ Shader "BigTalkUnity/AlphaBlend" {
 		Pass {
 			Tags { "LightMode"="ForwardBase" }
 
-			ZWrite Off
+			ZWrite On
 			Blend SrcAlpha OneMinusSrcAlpha
 			
 			CGPROGRAM
