@@ -4,20 +4,34 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EchoClient : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public InputField Input;
+    public Text ReceivedText;
+    private Socket socket;
+    private byte[] buffer = new byte[1024];
+
     void Start()
     {
-        var socket = new Socket(SocketType.Stream, ProtocolType.Tcp);
+        // 1. 创建socket对象
+        socket = new Socket(SocketType.Stream, ProtocolType.Tcp);
+
+        // 2. 连接服务端
         IPAddress ip = IPAddress.Parse("127.0.0.1");
-        socket.Connect(new IPEndPoint(ip, 9999));
+        socket.Connect("127.0.0.1", 9999);
+    }
 
-        socket.Send(Encoding.UTF8.GetBytes("你好呀"));
+    public void Send()
+    {
+        // 3. 发送数据
+        socket.Send(Encoding.UTF8.GetBytes(Input.text));
 
-        var buffer = new byte[1024];
+        // 4. 接收数据
         int length = socket.Receive(buffer);
-        Debug.Log(Encoding.UTF8.GetString(buffer));
+        var str = Encoding.UTF8.GetString(buffer, 0, length);
+        Debug.Log(str);
+        ReceivedText.text = ReceivedText.text + str.Trim() + "\n";
     }
 }
