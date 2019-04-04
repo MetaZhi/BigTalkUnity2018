@@ -1,3 +1,6 @@
 [submodule "Projects/218xLua"]
 	path = Projects/218xLua
 	url = https://github.com/Tencent/xLua.git
+[submodule "Projects/214ILRuntime"]
+	path = Projects/214ILRuntime
+	url = https://github.com/Ourpalm/ILRuntimeU3D/
