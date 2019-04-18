@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ChatSystem;
+
+import "google/protobuf/timestamp.proto";
+
+message ChatMessage{
+    string nickname = 1;
+    string content = 2;
+    
+    google.protobuf.Timestamp send_time = 16;
+}
